@@ -3,7 +3,7 @@ import numpy as np
 
 img = cv2.imread("earth.jpg")
 if img is None:
-    print("hii vaibhav")
+    print("image not found")
     exit()
 
 rows, cols = img.shape[:2]
